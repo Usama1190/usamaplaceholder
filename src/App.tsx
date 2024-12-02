@@ -7,13 +7,14 @@ import Footer from './components/Footer'
 function App() {
 
   return (
-    <>
+    <div>
     <Header />
-    <Navbar />
-    <Hero />
-    <Footer />
-          
-    </>
+      <div className='w-[1000px] m-auto'>
+        <Navbar />
+        <Hero />
+        <Footer />
+      </div>
+    </div>
   )
 }
 
