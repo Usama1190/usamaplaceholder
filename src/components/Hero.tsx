@@ -60,7 +60,7 @@ const Hero = () => {
 
         <table className='w-80 my-5 ml-5'>
           <tr>
-            <td><a href="/post" className='underline'>/posts</a></td>
+            <td><a href="https://usama-post-api.vercel.app/" target='_blank' className='underline'>/posts</a></td>
             <td><p className='text-black'>100 posts</p></td>
           </tr>
           <tr>
@@ -95,7 +95,7 @@ const Hero = () => {
         <table className='w-80 my-5 ml-5'>
           <tr>
             <td><p className='text-black'>GET</p></td>
-            <td><a href="/post" className='underline'>/posts</a></td>
+            <td><a href="https://usama-post-api.vercel.app" className='underline'>/posts</a></td>
           </tr>
           <tr>
             <td><p className='text-black'>GET</p></td>
